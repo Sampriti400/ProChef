@@ -5,7 +5,7 @@ import SearchView from "./components/SearchView";
 import CuisineBar from "./components/Cuisine";
 import HomeView from "./components/HomeView";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { RECIPE_STYLES } from "./components/Recipestyles";
+import { RECIPE_STYLES } from "./components/recipestyles";
 
 const API_URL = "https://www.themealdb.com/api/json/v1/1/";
 
