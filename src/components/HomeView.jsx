@@ -3,7 +3,7 @@ import RecipeSlider from "./RecipeSlider";
 import TrendingRecipe from "./TredingRecipe";
 import CategorySection from "./CategorySelection";
 import { API_URL } from "./useFetch";
-import { RECIPE_STYLES } from "./recipeStyles";
+import { RECIPE_STYLES } from "./recipestyles";
 
 const HomeView = ({ filterByCategory }) => {
   return (

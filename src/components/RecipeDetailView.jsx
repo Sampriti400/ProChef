@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { useFetch, API_URL } from "./useFetch";
 import { ChevronLeft, Utensils, BookOpen } from "lucide-react";
-import { RECIPE_STYLES } from "./recipeStyles";
+import { RECIPE_STYLES } from "./recipestyles";
 
 const RecipeDetailView = () => {
   const { id } = useParams();

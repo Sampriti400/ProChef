@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { useFetch } from "./useFetch";
 import { Link } from "react-router-dom";
 import { Flame } from "lucide-react";
-import { RECIPE_STYLES } from "./recipeStyles";
+import { RECIPE_STYLES } from "./recipestyles";
 
 const TrendingSlider = ({ title, fetchUrl }) => {
   const { data, loading } = useFetch(fetchUrl);

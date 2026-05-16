@@ -1,7 +1,7 @@
 import React from "react";
 import { Utensils } from "lucide-react";
 import { Link } from "react-router-dom";
-import { RECIPE_STYLES } from "./recipeStyles";
+import { RECIPE_STYLES } from "./recipestyles";
 
 const CategorySelection = ({ filterByCategory }) => {
   const featuredCategories = [

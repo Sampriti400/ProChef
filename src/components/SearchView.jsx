@@ -2,7 +2,7 @@ import React from "react";
 import { ChevronLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import RecipeCard from "./RecipeCard";
-import { RECIPE_STYLES } from "./Recipestyles";
+import { RECIPE_STYLES } from "./recipestyles";
 
 const SearchView = ({ meals, loading }) => {
   return (

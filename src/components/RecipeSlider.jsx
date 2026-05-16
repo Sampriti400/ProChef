@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { useFetch } from "./useFetch";
 import RecipeCard from "./RecipeCard";
 import { Clock } from "lucide-react";
-import { RECIPE_STYLES } from "./recipeStyles";
+import { RECIPE_STYLES } from "./recipestyles";
 
 const RecipeSlider = ({ title, fetchUrl }) => {
   const { data, loading } = useFetch(fetchUrl);
